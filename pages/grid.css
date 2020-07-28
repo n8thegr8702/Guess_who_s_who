@@ -1,0 +1,20 @@
+.card-columns {
+  column-count: 8;
+}
+
+.card-img-top {
+  object-fit: cover;
+}
+
+#questionBox {
+  height: 40px;
+  width: 300px;
+}
+
+#imageDisplay {
+  margin: 75px;
+}
+
+.card {
+  height: 250px;
+}

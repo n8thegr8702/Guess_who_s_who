@@ -1,0 +1,44 @@
+<!--main game page, has grid of celebrities-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/pages/grid.css" />
+    <link rel="stylesheet" href="/pages/grid.css" />
+  </head>
+  <body>
+    <h1>Guess Who</h1>
+
+    <div id="imageDisplay" class="card-columns"></div>
+    <div class="chatbox">
+      Chat 
+    </br>
+    <button>Ask a Question</button> 
+    <form>
+      <input type = "text"  placeholder = "Ask a Question
+      ex:
+      do they have brown hair?
+      are they wearing a dress?
+      do they have siblings?
+      have they been divorced?" id = "questionBox"></input>
+    </form>
+    <button>Make a Guess</button>
+
+    <form>
+        <input type = "text"  placeholder = "Make a Guess" id = "guessBox"></input>
+      </form>
+    </div>
+
+    <div class = "playerCard">
+      Your Card
+    </div>
+    <button><a href="/index.html">Go to Homepage</a></button>
+
+  </body>
+  <script src="/pages/mainGrid.js" />
+</html>
